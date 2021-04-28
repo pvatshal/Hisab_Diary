@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+
+    >
+
+    <group android:checkableBehavior="single"
+
+        >
+
+        <item android:id="@+id/dashboard"
+            android:title="Dashboard"
+            android:icon="@drawable/ic_dashboard"
+            />
+
+
+        <item android:id="@+id/all_transaction"
+            android:title="All transaction"
+            android:icon="@drawable/ic_all_tansaction"
+            />
+
+        <item android:id="@+id/budget"
+            android:title="Budget"
+            android:icon="@drawable/ic_budget"
+            />
+        <item android:id="@+id/categories"
+            android:title="Categories"
+            android:icon="@drawable/ic_category"
+            />
+
+    </group>
+
+
+    <item android:title="More Options">
+
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item android:id="@+id/weekly_report_id"
+                    android:title="Weekly Report"
+                    android:icon="@drawable/nextweek"
+                    />
+                <item android:id="@+id/monthly_report_id"
+                    android:title="Monthly Report"
+                    android:icon="@drawable/month"
+                    />
+                <item android:id="@+id/yearly_report_id"
+                    android:title="Yearly Report"
+                    android:icon="@drawable/year"
+                    />
+
+                <item android:id="@+id/settings"
+                    android:title="Settings"
+                    android:icon="@drawable/ic_settings"
+                    />
+                <item android:id="@+id/faqs"
+                    android:title="FAQ"
+                    android:icon="@drawable/faqs"
+                    />
+
+
+
+
+            </group>
+
+        </menu>
+
+    </item>
+
+
+
+</menu>

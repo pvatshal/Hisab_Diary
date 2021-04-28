@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hisab_diary">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_logo_1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_logo_1_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".IntroActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionbar"
+            >
+        </activity>
+
+        <activity android:name=".AddActivity"/>
+        <activity android:name=".Delete_row_Class"/>
+        <activity android:name=".update_row"/>
+        <activity android:name=".All_transaction"/>
+        <activity android:name=".Week_Analysis"/>
+        <activity android:name=".Add_Budget"/>
+        <activity android:name=".Cate_wise_budget"/>
+        <activity android:name=".Faqs"/>
+        <activity android:name=".IntroActivity01"/>
+        <activity android:name=".Settings_123"/>
+        <activity android:name=".Login"/>
+        <activity android:name=".Register"/>
+        <activity android:name=".Month_Analysis"/>
+        <activity android:name=".Year_Analysis"/>
+        <activity android:name=".Contact_Us"/>
+        <activity android:name=".About_Us"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

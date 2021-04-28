@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white1"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:letterSpacing="0.1"
+            android:padding="10dp"
+            android:text="Show Budget"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+      </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:background="@drawable/rectangle_1"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:elevation="8dp"
+        android:orientation="horizontal"
+        >
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Total budget: "
+    android:textSize="20dp"
+    android:textColor="@color/black"
+
+
+    />
+
+        <TextView
+            android:id="@+id/budget_total_id"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="$600"
+            android:textSize="20dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/main_page_budget_id_2"
+            >
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white1"
+    android:orientation="vertical"
+    android:id="@+id/sc1" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white1"
+        android:orientation="vertical"
+        android:id="@+id/lay1" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="vertical"
+            android:background="@drawable/border"
+            android:id="@+id/lay2"
+            >
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Week Analysis"
+                android:textColor="#090808"
+                android:textSize="20sp"
+                android:padding="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:letterSpacing="0.1"
+                android:id="@+id/heading_1_id"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:background="@drawable/border"
+            android:id="@+id/lay3"
+            >
+
+            <TextView
+                android:id="@+id/heading_2_id"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="This week"
+                android:gravity="center"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="81dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="21dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="23dp"
+                android:background="@drawable/rectangle_1"
+                android:elevation="12dp"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="38dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5.15dp"
+                    android:src="@drawable/down_arrow"
+
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="4dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:gravity="center"
+                        android:text="income"
+                        android:textAllCaps="true"
+                        android:textColor="#5F5B5B"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:id="@+id/income_id_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:gravity="center"
+                        android:text="$10590"
+                        android:textAllCaps="true"
+                        android:textColor="#000000"
+                        android:textFontWeight="500" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="29dp"
+                android:background="@drawable/rectangle_1"
+                android:elevation="12dp"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="38dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5.15dp"
+                    android:src="@drawable/up_arrow"
+
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="4dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:gravity="center"
+                        android:text="Spending"
+                        android:textAllCaps="true"
+                        android:textColor="#5F5B5B"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:id="@+id/expense_id_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:gravity="center"
+                        android:text="$1500"
+                        android:textAllCaps="true"
+                        android:textColor="#000000"
+                        android:textFontWeight="500" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="17dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="232dp"
+                android:layout_height="match_parent"
+                android:text="Recent transaction"
+                android:gravity="start"
+                android:textColor="@color/black"
+                android:paddingLeft="15dp"
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="243dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white1"
+
+            android:layout_gravity="center_horizontal"
+            >
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerview_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/nodatafound"
+                android:layout_margin="5dp"
+                >
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white1"
+            >
+
+            <com.anychart.AnyChartView
+                android:id="@+id/chart_id"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@color/white1"
+                android:layout_gravity="center" />
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stats"
+            android:fontFamily="@font/roboto_medium"
+            android:textColor="@color/black"
+            android:layout_marginLeft="6dp"
+            android:textSize="18dp"
+            />
+
+        <LinearLayout
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:elevation="8dp"
+            android:background="@drawable/rectangle_1"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Number of transactions"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="6dp"
+                    />
+
+                <TextView
+                    android:id="@+id/no_of_trans_id_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="17"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginLeft="100dp"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Average spending"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="6dp"
+
+                    />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="20dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Per day"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="6dp"
+                    />
+
+                <TextView
+                    android:id="@+id/per_day_id_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$30"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginLeft="190dp"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="20dp"
+
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Per transaction"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="6dp"
+                    />
+
+                <TextView
+                    android:id="@+id/per_transaction_id_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$80"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginLeft="140dp"
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+

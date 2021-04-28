@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/see_all_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white1"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:letterSpacing="0.1"
+                android:padding="10dp"
+                android:text="Faqs"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectangle_1"
+            android:elevation="6dp"
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:text="1. How to see the balance?"
+                android:textColor="@color/black"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="For see the balance :
+Go to setting -> enable Show net balance.
+
+For carry forward your previous month's balance to current month:
+Go to setting -> enable carry forward balance"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectangle_1"
+            android:elevation="6dp"
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:text="2. How to see weekly analysis?"
+                android:textColor="@color/black"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Home page has one analysis section. In this section the first section is for weekly analysis and in the menu more options also have a weekly report. This option provides a summary of the particular one week. It displays all the transactions that we have done during the week. It displays the payment methods that you have done during the transactions. Also it displays the statistics information about the week."
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectangle_1"
+            android:elevation="6dp"
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:text="3. How to see Monthly analysis?"
+                android:textColor="@color/black"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Home page has one analysis section. In this section the second section is for monthly analysis and in the menu more options also have a monthly report. This option provides a summary of the particular one month. It displays all the transactions that we have done during the month. It displays the payment methods that you have done during the transactions. Also it displays the statistics information about the month."
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectangle_1"
+            android:elevation="6dp"
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:text="4. How to see Yearly analysis?"
+                android:textColor="@color/black"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Home page has one analysis section. In this section the third section is for yearly analysis and in the menu more options also have a yearly report. This option provides a summary of the particular one year. It displays all the transactions that we have done during the year. It displays the payment methods that you have done during the transactions. Also it displays the statistics information about the year."
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectangle_1"
+            android:elevation="6dp"
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:text="5. How to view balance payment methods-wise?"
+                android:textColor="@color/black"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Adding the component to follow the balance in various payment modes will superfluously make the application complex for the clients, as then they will undoubtedly enter every exchange, and missing even one exchange will show inaccurate balance in various payment methods."
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectangle_1"
+            android:elevation="6dp"
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:text="6. How to add transactions?"
+                android:textColor="@color/black"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Transaction feature where you can add your expenses and incomes transactions. First you have to select the date when you have done the transaction and then enter the amount of transaction. After that you need to select the transaction type income or expense. Also you have to choose the particular category. There are a lot of categories available such as Food, Travelling, Shopping, Medical and etc."
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectangle_1"
+            android:elevation="6dp"
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:text="7. How to create budgets?"
+                android:textColor="@color/black"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="For creating new budgets:
+Go to menu -> select budget -> click on add button -> now fill the budget page -> click on save button"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

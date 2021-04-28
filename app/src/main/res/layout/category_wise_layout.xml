@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white1"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:background="@color/white1"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:letterSpacing="0.1"
+            android:padding="10dp"
+            android:text="Category analysis"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <TextView
+            android:id="@+id/caregory_name_id_1"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:fontFamily="@font/roboto_medium"
+            android:letterSpacing="0.1"
+            android:layout_marginLeft="20dp"
+            android:padding="10dp"
+            android:text="Entertainment"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+        android:background="@drawable/rectangle_1"
+        android:elevation="8dp"
+        android:layout_marginLeft="10dp"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:id="@+id/amount_category_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$868.0"
+            android:layout_marginLeft="10dp"
+            android:textSize="23dp"
+            android:textColor="@color/black"
+            />
+        <ProgressBar
+            android:id="@+id/progress_id_3"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:max="100"
+            android:layout_margin="10dp"
+            android:progressDrawable="@drawable/my_progress_bar" />
+
+        <TextView
+            android:id="@+id/text_category_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You are under 100 limit."
+            android:layout_marginLeft="10dp"
+            android:textSize="18dp"
+            android:textColor="#201616"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="232dp"
+            android:layout_height="match_parent"
+            android:gravity="start"
+            android:paddingLeft="20dp"
+            android:text="Transactions"
+            android:fontFamily="@font/roboto_medium"
+            android:textSize="20dp"
+            android:textColor="@color/black" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#fafafa"
+        android:layout_marginTop="10dp">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="8dp"
+            android:background="@drawable/nodatafound">
+        </androidx.recyclerview.widget.RecyclerView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#fafafa"
+        android:layout_marginTop="10dp">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview_4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="8dp"
+            android:background="@drawable/nodatafound">
+        </androidx.recyclerview.widget.RecyclerView>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="232dp"
+        android:layout_height="match_parent"
+        android:gravity="start"
+        android:paddingLeft="20dp"
+        android:text="Stats"
+        android:fontFamily="@font/roboto_medium"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        />
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:elevation="8dp"
+        android:background="@drawable/rectangle_1"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Number of transactions"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="6dp"
+                />
+
+            <TextView
+                android:id="@+id/no_of_trans_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="17"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="50dp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Average spending"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="6dp"
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Per day"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="6dp"
+                />
+
+            <TextView
+                android:id="@+id/per_day_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$30"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="100dp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Per transaction"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="6dp"
+                />
+
+            <TextView
+                android:id="@+id/per_transaction_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$80"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="50dp"
+                />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+
+</ScrollView>

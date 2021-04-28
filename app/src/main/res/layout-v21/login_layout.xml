@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+
+    >
+
+
+
+    <ImageView
+        android:id="@+id/iv_user"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible"
+        android:src="@drawable/login"
+        ></ImageView>
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/iv_user"
+        android:layout_marginTop="40dp"
+        android:hint="Email"
+        android:textColor="#ffffff"
+        android:textColorHint="#fffff0"
+        android:drawableLeft="@drawable/ic_action_name1"
+        android:background="#11000000"
+        ></EditText>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_email"
+        android:layout_alignStart="@+id/et_email"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:layout_below="@+id/et_email"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:id="@+id/et_password"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:textColorHint="#fffff0"
+        android:drawableLeft="@drawable/ic_password_lock"
+        android:background="#11000000"
+
+
+        ></EditText>
+
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_password"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:text="Login"
+        android:layout_marginTop="40dp"
+        android:id="@+id/btn_login"
+        android:background="#f2aa4f"
+        android:textSize="20sp"
+        android:letterSpacing="0.1"
+
+        ></Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_register"
+        android:layout_below="@+id/btn_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"
+        android:text="Register Me"
+        android:textColor="#ffffff"
+        ></TextView>
+
+
+    <Button
+        android:id="@+id/btnmobilelogin"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_register"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="105dp"
+        android:layout_marginEnd="80dp"
+        android:background="@android:color/holo_blue_dark"
+        android:letterSpacing="0.1"
+        android:text=" MOBILE NUMBER "
+        android:textColor="@android:color/white"></Button>
+
+</RelativeLayout>
+

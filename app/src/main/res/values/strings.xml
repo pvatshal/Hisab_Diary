@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Hisab Diary</string>
+    <string name="close">close</string>
+    <string name="open">open</string>
+    <string-array name="names">
+        <item>How to see the balance?</item>
+        <item>How to see weekly analysis?</item>
+        <item>How to see Monthly analysis?</item>
+        <item>How to see Yearly analysis?</item>
+        <item>How to view balance payment methods-wise?</item>
+        <item>How to add transactions?</item>
+        <item>How to edit or create new categories?</item>
+        <item>How to create budgets?</item>
+    </string-array>
+</resources>
